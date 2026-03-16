@@ -804,6 +804,9 @@
 
         <referencesSearch implementation="fr.adrienbrault.idea.symfony2plugin.templating.usages.TwigTemplateReferencesSearchExecutor"/>
         <usageTypeProvider implementation="fr.adrienbrault.idea.symfony2plugin.templating.usages.TwigTemplateUsageTypeProvider"/>
+
+        <fileBasedIndex implementation="fr.adrienbrault.idea.symfony2plugin.httpClientRecorder.stubs.indexes.HttpClientRecorderStubIndex"/>
+        <codeInsight.lineMarkerProvider language="" implementationClass="fr.adrienbrault.idea.symfony2plugin.httpClientRecorder.HttpClientRecorderLineMarkerProvider"/>
     </extensions>
 
     <extensionPoints>
